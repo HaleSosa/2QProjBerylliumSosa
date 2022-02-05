@@ -1,8 +1,8 @@
 *{
-	color: white;
-	background-color: #41B3A3;
+	color: black;
+	background-color: #D3D3D3;
 	font-family: Comic sans;
-	text-shadow: 3px 3px 3px gray;
+	text-shadow: 3px 3px 3px #D3D3D3;
 }
 
 body{
@@ -27,7 +27,7 @@ nav a{
 	float: left;
 	text-align: center;
 	font-size: 25px;
-	background-color: #85DCBA;
+	background-color: gray;
 	text-decoration:none
 }
 	
@@ -37,26 +37,18 @@ a:hover{
 
 #description{
 	font-size: 20px;
-	border: solid 5px white;
+	border: solid 5px black;
 	text-align:center;
 }
 		
 #currentPage{
 	margin: 10px;
 	font-size: 40px;
-	border: solid 5px white;
+	border: solid 5px black;
 	float: left;
 	padding: 10px;
 }
 
-#click{
-	margin: 100px;
-	text-align: center;
-	font-size: 20px;
-	border-style: solid;
-	position: relative;
-	top: 100px;
-}
 		
 table caption{
 	border: 5px solid white;
@@ -76,8 +68,28 @@ table{
 	border-collapse:  collapse;
 	margin-left: auto;
 	margin-right: auto;
+	width: 75%;
 }
 
 footer a{
 	text-decoration:none;
 }
+
+
+div.gallery img {
+  display:block;
+  width: 150px;
+  height: 300px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#p1 {
+	clear:left;
+	border-collapse:  collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
