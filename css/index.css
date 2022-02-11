@@ -96,3 +96,22 @@ table{
 footer a{
 	text-decoration:none;
 }
+
+#facebook {
+  width: 50px;
+  height: 50px;
+  background: url(https://i.imgur.com/MqbOicN.png) 0 0;
+}
+
+#twitter {
+  width: 50px;
+  height: 50px;
+  background: url(https://i.imgur.com/MqbOicN.png) -65px 0;
+}
+
+#instagram {
+  width: 50px;
+  height: 50px;
+  background: url(https://i.imgur.com/MqbOicN.png) -130px 0;
+}
+
